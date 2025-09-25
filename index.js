@@ -467,7 +467,7 @@ const Message = require('./models/Message');
 const Group = require('./models/Group');
 
 const PORT = process.env.PORT || 3000;
-const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URI || '';
+const MONGODB_URI = process.env.MONGODB_URI || process.env.MONGO_URI || 'mongodb+srv://ChatAppData:CHATAPPDATA@chatappdata.ua6pnti.mongodb.net/?retryWrites=true&w=majority&appName=ChatAppData';
 const JWT_SECRET = process.env.JWT_SECRET || 'hi-chat-ultimate-secret-2024';
 
 (async () => {
